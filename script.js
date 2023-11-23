@@ -27,3 +27,7 @@ $(".instagram-link").click(function () {
 $(".facebook-link").click(function () {
     window.open("https://www.facebook.com/pushkarcdn");
 })
+
+$(".website-link").click(function () {
+    window.open("https://pushkar.com.np");
+})
