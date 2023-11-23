@@ -97,7 +97,7 @@ span.full-stack-text {
 }
 
 .project-card {
-  border: 2px solid;
+  /* border: 2px solid; */
   border-color: var(--blue4);
   border-radius: 5px;
   width: 300px;

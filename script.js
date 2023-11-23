@@ -10,3 +10,20 @@ $("img.theme").click(function () {
     }
 
 });
+
+
+$(".linkedin-link").click(function () {
+    window.open("https://www.linkedin.com/in/pushkarcdn");
+})
+
+$(".github-link").click(function () {
+    window.open("https://www.github.com/pushkarcdn");
+})
+
+$(".instagram-link").click(function () {
+    window.open("https://www.instagram.com/pushkarcdn");
+})
+
+$(".facebook-link").click(function () {
+    window.open("https://www.facebook.com/pushkarcdn");
+})
