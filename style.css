@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-* {
   cursor: default;
 }
 
@@ -20,10 +17,6 @@
 .first-main {
   /* border: 2px solid black; */
   width: 100%;
-}
-
-.myclass1 {
-  /* display: flex; */
 }
 
 .title-div {
