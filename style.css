@@ -22,6 +22,31 @@
   width: 100%;
 }
 
+.myclass1 {
+  /* display: flex; */
+}
+
+.title-div {
+  display: flex;
+  flex-direction: column;
+}
+
+name {
+  font-size: 20px;
+}
+
+span.full-stack-text {
+  font-size: 0.75rem;
+  line-height: 0.8;
+}
+
+.social-links {
+  display: flex;
+  justify-self: flex-end;
+  align-items: center;
+  left: 0px;
+}
+
 .second-portfolio {
   padding: 5vw;
 }
@@ -44,6 +69,10 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
+  }
+
+  .desktop {
+    display: none;
   }
 }
 
