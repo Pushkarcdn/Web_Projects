@@ -4,9 +4,12 @@ $("img.theme").click(function () {
 
     if (htmlElement.attr("data-bs-theme") === "dark") {
         htmlElement.removeAttr("data-bs-theme");
+        document.getElementsByTagName("body")[0].style.backgroundColor = "#f8f8f8";
+
     }
     else {
         htmlElement.attr("data-bs-theme", "dark");
+        document.getElementsByTagName("body")[0].style.backgroundColor = "black";
     }
 
 });
