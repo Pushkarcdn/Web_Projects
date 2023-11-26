@@ -34,3 +34,16 @@ $(".facebook-link").click(function () {
 $(".website-link").click(function () {
     window.open("https://pushkar.com.np");
 })
+
+$("#secret_messaging_button").click(function () {
+    window.open("https://fsp1.pushkar.eu.org");
+})
+
+$("#the_simon_game_button").click(function () {
+    window.open("https://fep4.pushkar.eu.org");
+})
+
+$("#amazon_clone_button").click(function () {
+    window.open("https://fep1.pushkar.eu.org");
+})
+
