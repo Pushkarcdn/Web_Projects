@@ -47,3 +47,7 @@ $("#amazon_clone_button").click(function () {
     window.open("https://fep1.pushkar.eu.org");
 })
 
+// Prevent context menu on long press for the entire document
+document.addEventListener('contextmenu', function (event) {
+    event.preventDefault();
+});
