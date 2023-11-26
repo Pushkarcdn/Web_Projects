@@ -5,11 +5,13 @@ $("img.theme").click(function () {
     if (htmlElement.attr("data-bs-theme") === "dark") {
         htmlElement.removeAttr("data-bs-theme");
         document.getElementsByTagName("body")[0].style.backgroundColor = "#f8f8f8";
+        $(".project-card").css('backgroundColor', "#ffffff");
 
     }
     else {
         htmlElement.attr("data-bs-theme", "dark");
         document.getElementsByTagName("body")[0].style.backgroundColor = "black";
+        $(".project-card").css('backgroundColor', "#373737");
     }
 
 });
@@ -51,3 +53,4 @@ $("#amazon_clone_button").click(function () {
 document.addEventListener('contextmenu', function (event) {
     event.preventDefault();
 });
+
