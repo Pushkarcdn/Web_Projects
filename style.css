@@ -141,6 +141,11 @@ button {
   text-align: center;
   padding: 25px 50px;
   position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+.project-card:hover {
+  background-color: rgb(229, 236, 250);
 }
 
 .project-card-1 {
