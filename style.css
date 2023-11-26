@@ -46,6 +46,15 @@ span.full-stack-text {
   left: 0px;
 }
 
+.social-links img,
+button {
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
+}
+
 .second-portfolio {
   padding: 5vw;
 }
@@ -86,6 +95,7 @@ span.full-stack-text {
   border: none;
   border-radius: 10px;
   cursor: default;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn66:hover {
@@ -145,6 +155,7 @@ span.full-stack-text {
   border: none;
   border-radius: 10px;
   cursor: default;
+  transition: all 0.3s ease-in-out;
 }
 
 .project-card button:hover {
