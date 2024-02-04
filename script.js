@@ -53,6 +53,10 @@ $("#news_app_button").click(function () {
     window.open("https://github.com/Pushkarcdn/Python_NewsApp");
 })
 
+$("#y1s1-page-button").click(function () {
+    window.open("https://fep5.pushkar.eu.org");
+})
+
 // Prevent context menu on long press for the entire document
 document.addEventListener('contextmenu', function (event) {
     event.preventDefault();
